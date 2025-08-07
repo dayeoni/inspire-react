@@ -1,0 +1,15 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "오늘은 블로그 실습",
+      "content": "참 재미있지만 어렵다....ㅎㅎ"
+    },
+    {
+      "id": 2,
+      "title": "spa 기반 react",
+      "content": "문법이 어려운가요?"
+    }
+  ],
+  "comments": []
+}

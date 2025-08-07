@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80');background-size: cover;           /* 화면에 꽉 차게 */
+  background-position: center;      /* 가운데 정렬 */
+  background-repeat: no-repeat;     /* 반복 방지 */
+  background-attachment: fixed;     /* 스크롤 시 배경 고정 */
+  font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.weather-box{
+    border: 3px solid #ffc107;
+    padding: 30px 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 650px;
+    background-color: #48aac09d;
+}
+
+.weather-btn{
+    border: 3px solid black;
+    padding: 20px 50px;
+    border-radius: 10px;
+    background-color: black;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+}
+.btn:last-child{
+    margin: 0;
+}
+.btn{
+    margin-right: 15px;
+}
+
+.btn:hover{
+    background-color: black;
+    color:white;
+}

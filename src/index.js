@@ -10,12 +10,20 @@ import reportWebVitals from './reportWebVitals';
 //     <App />
 //   </React.StrictMode>
 // );
-import LibraryPage from "./page/LibraryPage"
+
+
+// import LibraryPage from "./page/LibraryPage"
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <LibraryPage />
+//   </React.StrictMode>
+// );
+
+import WeatherApp from './WeatherApp';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <LibraryPage />
-  </React.StrictMode>
+  <WeatherApp />
 );
 
 // If you want to start measuring performance in your app, pass a function
